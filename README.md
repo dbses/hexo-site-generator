@@ -28,3 +28,14 @@
 - hexo g
 
 - hexo d
+
+### 集成hexo-admin
+
+> [hexo-admin文档](https://github.com/jaredly/hexo-admin)
+ 
+- 启动
+````shell
+npm install --save hexo-admin
+hexo server -d
+open http://localhost:4000/admin
+````
