@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 杨同学的博客
+title: 杨同学的空间
 subtitle: ''
 description: ''
 keywords:
@@ -112,3 +112,9 @@ search:
   path: search.xml
   field: post
   format: html
+
+# hexo-admin authentification
+admin:
+  username: infra
+  password_hash: $2a$10$mi7HelOxR/9H1MzqZ2PSEejTpELXeb6IMpA.z8yXkA296bgGcgkqG
+  secret: 60bb9fd55cc0a90001ecd644

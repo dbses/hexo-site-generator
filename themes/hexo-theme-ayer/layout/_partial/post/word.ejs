@@ -16,5 +16,14 @@
             <span class="post-count"><%= min2read(post.content) %> <%= __('post.minutes') %></span>
         </span>
     </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-account-circle-line"></i>
+            <span class="post-meta-item-text">作者：</span>
+            <span class="post-count"><%= post.author %></span>
+        </span>
+    </span>
 </div>
 <% } %>
