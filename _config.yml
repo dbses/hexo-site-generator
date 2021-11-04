@@ -97,15 +97,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-ayer
+theme: webstack
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-#  repository: https://gitee.com/yanglu_u/yanglu_u.gitee.io.git
-  repository: https://github.com/dbses/dbses.github.io.git
-  branch: master
+  repository: https://gitee.com/yanglu_u/yanglu_u.git
+#  repository: https://github.com/dbses/dbses.github.io.git
+  branch: hexo
 
 # hexo-generator-searchdb
 search:
@@ -118,3 +118,13 @@ admin:
   username: infra
   password_hash: $2a$10$mi7HelOxR/9H1MzqZ2PSEejTpELXeb6IMpA.z8yXkA296bgGcgkqG
   secret: 60bb9fd55cc0a90001ecd644
+
+hotTools:
+  - name: HCLonely Blog
+    url: https://blog.hclonely.com/
+    img: /images/logos/myBlog.png
+    description: 一个懒人的博客。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
