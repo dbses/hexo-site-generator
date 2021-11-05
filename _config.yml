@@ -103,8 +103,8 @@ theme: webstack
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://gitee.com/yanglu_u/yanglu_u.git
-#  repository: https://github.com/dbses/dbses.github.io.git
+#  repository: https://gitee.com/yanglu_u/yanglu_u.git
+  repository: https://github.com/dbses/dbses.github.io.git
   branch: webstack
 
 # hexo-generator-searchdb
