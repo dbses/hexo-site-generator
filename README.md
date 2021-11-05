@@ -71,3 +71,7 @@ npm install --save hexo-admin
 hexo server -d
 open http://localhost:4000/admin
 ````
+
+### 五、webstack 主题
+
+参考：https://github.com/dbses/hexo-site-generator
