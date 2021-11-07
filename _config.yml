@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dbses.cn
-subtitle: 'Engineer''s Website'
-description: 'Engineer resources'
+title: 杨同学的空间
+subtitle: ''
+description: ''
 keywords:
 author: yanglu_u
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.dbses.cn
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -118,3 +118,13 @@ admin:
   username: infra
   password_hash: $2a$10$mi7HelOxR/9H1MzqZ2PSEejTpELXeb6IMpA.z8yXkA296bgGcgkqG
   secret: 60bb9fd55cc0a90001ecd644
+
+hotTools:
+  - name: HCLonely Blog
+    url: https://blog.hclonely.com/
+    img: /images/logos/myBlog.png
+    description: 一个懒人的博客。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
