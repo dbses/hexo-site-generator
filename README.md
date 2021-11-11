@@ -49,9 +49,9 @@ hexo s
 - npm install hexo-generator-feed --save
 
 
-### 三、如何编写文章？
+### 三、编辑内容
 
-- 参考[模板](./source/_posts/my-first-blog.md)编写文章
+修改 `_config.webstack.yml`文件。
 
 - sh deploy.sh
 
