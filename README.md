@@ -53,13 +53,7 @@ hexo s
 
 - 参考[模板](./source/_posts/my-first-blog.md)编写文章
 
-- npm install hexo-deployer-git --save
-
-- hexo clean
-
-- hexo g
-
-- hexo d
+- sh deploy.sh
 
 ### 四、集成 hexo-admin
 
