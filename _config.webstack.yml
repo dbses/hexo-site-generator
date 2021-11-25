@@ -10,10 +10,11 @@ flag:
   icon: flag-cn
   name: Chinese
 
-search: true
+search: false
 
 githubCorner: '<a href="https://github.com/dbses" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
 
+# 图标：https://fontawesome.com/v5.15/icons/tools
 menu:
   - name: 与我相关
     icon: far fa-star
@@ -22,17 +23,17 @@ menu:
     icon: fas fa-tools
     config: devTools
   - name: 资源站
-    icon: fas fa-tools
+    icon: fas fa-indent
     config: resources
   - name: 学习资源
-    icon: fas fa-tools
+    icon: fas fa-indent
     config: learning
     submenu:
       - name: 技术资料
-        icon: fas fa-tools
+        icon: fal fa-indent
         config: tech
       - name: 非技术类
-        icon: fas fa-blog
+        icon: fal fa-indent
         config: nontech
 
 aboutMe:
@@ -46,11 +47,11 @@ aboutMe:
     description: 互联网技术学习笔记
   - name: 掘金-杨同学_
     url: https://juejin.cn/user/2594503173605767/posts
-    img: /images/logos/掘金头像.png
+    img: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/favicon-32x32.png
     description: 杨同学_ 的个人主页 - 文章 - 掘金
   - name: CSDN-NULL
     url: https://blog.csdn.net/yang237061644?spm=1010.2135.3001.5343
-    img: /images/logos/csdn头像.jpg
+    img: https://g.csdnimg.cn/static/logo/favicon32.ico
     description: NULL_杨同学__CSDN博客
 devTools:
   - name: Cron
@@ -59,50 +60,50 @@ devTools:
     description: 在线Cron表达式生成器
   - name: ProcessOn
     url: https://www.processon.com/
-    img: /images/logos/ProcessOn.png
+    img: https://www.processon.com/favicon.ico
     description: ProcessOn - 免费在线作图，思维导图，流程图，实时协作
   - name: 在线工具
     url: https://tool.lu/timestamp/
-    img: /images/logos/在线工具.png
+    img: https://tool.lu/favicon.ico
     description: 在线工具 - 你的工具箱
   - name: brandmark
     url: https://app.brandmark.io/v3/
-    img: /images/logos/brandmark.png
+    img: https://app.brandmark.io/favicon32.gif
     description: Brandmark - make your logo in minutes
   - name: uTools
     url: https://u.tools/docs/guide/about-uTools.html
-    img: /images/logos/myblog.png
+    img: https://u.tools/favicon.ico
     description:
 resources:
   - name: 清华大学开源软件镜像站
     url: https://mirrors.tuna.tsinghua.edu.cn/
-    img: /images/logos/myblog.png
+    img: https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png
     description:
   - name: 精品mac软件下载
     url: https://macwk.com/
-    img: /images/logos/myblog.png
+    img: https://macwk.com/favicon.ico
     description:
 tech:
   - name: MDN Web Docs
     url: https://developer.mozilla.org/zh-CN/docs/Learn
-    img: /images/logos/myblog.png
+    img: https://developer.mozilla.org/favicon-192x192.png
     description:
   - name: 书栈网
     url: https://www.bookstack.cn/
-    img: /images/logos/myblog.png
+    img: https://www.bookstack.cn/favicon.ico
     description:
   - name: Spring Cloud 中文文档
     url: https://www.docs4dev.com/docs/zh/spring-cloud/Greenwich.RELEASE/reference/
-    img: /images/logos/myblog.png
+    img: https://www.docs4dev.com/static/images/favicon.ico
     description:
   - name: 力扣
     url: https://leetcode-cn.com/problemset/all/
-    img: /images/logos/myblog.png
+    img: https://leetcode-cn.com/favicon.ico
     description:
 nontech:
-  - name: 清华大学开源软件镜像站
-    url: https://mirrors.tuna.tsinghua.edu.cn/
-    img: /images/logos/myblog.png
+  - name: 百度翻译
+    url: https://fanyi.baidu.com/
+    img: https://fanyi.baidu.com/favicon.ico
     description:
 #about:
 #  url: /about/

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-nohup hexo s &
-pid=`pgrep -f hexo`
+hexo g
+hexo s
 
 echo "start success, pid: $pid"
