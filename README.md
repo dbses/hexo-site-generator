@@ -44,10 +44,6 @@ hexo s
 
 - npm install -g hexo-cli
 
-- npm install hexo-generator-searchdb --save
-
-- npm install hexo-generator-feed --save
-
 
 ### 三、编辑内容
 
@@ -61,7 +57,6 @@ hexo s
 
 - 启动
 ````shell
-npm install --save hexo-admin
 hexo server -d
 open http://localhost:4000/admin
 ````

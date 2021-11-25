@@ -21,13 +21,19 @@ menu:
   - name: 开发工具
     icon: fas fa-tools
     config: devTools
-#    submenu:
-#      - name: 开发工具
-#        icon: fas fa-tools
-#        config: devTools
-#      - name: 我的博客
-#        icon: fas fa-blog
-#        config: myBlog
+  - name: 资源站
+    icon: fas fa-tools
+    config: resources
+  - name: 学习资源
+    icon: fas fa-tools
+    config: learning
+    submenu:
+      - name: 技术资料
+        icon: fas fa-tools
+        config: tech
+      - name: 非技术类
+        icon: fas fa-blog
+        config: nontech
 
 aboutMe:
   - name: dbses
@@ -63,6 +69,41 @@ devTools:
     url: https://app.brandmark.io/v3/
     img: /images/logos/brandmark.png
     description: Brandmark - make your logo in minutes
+  - name: uTools
+    url: https://u.tools/docs/guide/about-uTools.html
+    img: /images/logos/myblog.png
+    description:
+resources:
+  - name: 清华大学开源软件镜像站
+    url: https://mirrors.tuna.tsinghua.edu.cn/
+    img: /images/logos/myblog.png
+    description:
+  - name: 精品mac软件下载
+    url: https://macwk.com/
+    img: /images/logos/myblog.png
+    description:
+tech:
+  - name: MDN Web Docs
+    url: https://developer.mozilla.org/zh-CN/docs/Learn
+    img: /images/logos/myblog.png
+    description:
+  - name: 书栈网
+    url: https://www.bookstack.cn/
+    img: /images/logos/myblog.png
+    description:
+  - name: Spring Cloud 中文文档
+    url: https://www.docs4dev.com/docs/zh/spring-cloud/Greenwich.RELEASE/reference/
+    img: /images/logos/myblog.png
+    description:
+  - name: 力扣
+    url: https://leetcode-cn.com/problemset/all/
+    img: /images/logos/myblog.png
+    description:
+nontech:
+  - name: 清华大学开源软件镜像站
+    url: https://mirrors.tuna.tsinghua.edu.cn/
+    img: /images/logos/myblog.png
+    description:
 #about:
 #  url: /about/
 #  icon: far fa-heart
