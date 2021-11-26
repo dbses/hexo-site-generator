@@ -19,30 +19,41 @@ menu:
   - name: 与我相关
     icon: far fa-star
     config: aboutMe
-  - name: 开发工具
+  - name: 工具类
     icon: fas fa-tools
-    config: devTools
-  - name: 资源站
+    config: tool
+  - name: 资源类
     icon: fas fa-indent
-    config: resources
-  - name: 学习资源
+    config: resource
+  - name: 技术类
     icon: fas fa-indent
-    config: learning
+    config: tech
     submenu:
+      - name: 技术网站
+        icon: fal fa-indent
+        config: tech_website
       - name: 技术资料
         icon: fal fa-indent
-        config: tech
-      - name: 非技术类
-        icon: fal fa-indent
-        config: nontech
+        config: tech_material
+  - name: 新闻类
+    icon: fas fa-indent
+    config: news
 
 aboutMe:
   - name: dbses
     url: https://github.com/dbses
     img: /images/logos/github.png
     description: dbses (yanglulu) · GitHub
+  - name: yanglu_u
+    url: https://gitee.com/yanglu_u
+    img: https://gitee.com/assets/favicon.ico
+    description:
   - name: technotes
     url: https://www.dbses.cn/technotes
+    img: /images/logos/myblog.png
+    description: 互联网技术学习笔记
+  - name: technotes (国内)
+    url: https://yanglu_u.gitee.io/technotes/#/
     img: /images/logos/myblog.png
     description: 互联网技术学习笔记
   - name: 掘金-杨同学_
@@ -53,7 +64,7 @@ aboutMe:
     url: https://blog.csdn.net/yang237061644?spm=1010.2135.3001.5343
     img: https://g.csdnimg.cn/static/logo/favicon32.ico
     description: NULL_杨同学__CSDN博客
-devTools:
+tool:
   - name: Cron
     url: https://cron.qqe2.com/
     img: /images/logos/cron工具.png
@@ -74,7 +85,11 @@ devTools:
     url: https://u.tools/docs/guide/about-uTools.html
     img: https://u.tools/favicon.ico
     description:
-resources:
+  - name: 百度翻译
+    url: https://fanyi.baidu.com/
+    img: https://fanyi.baidu.com/favicon.ico
+    description:
+resource:
   - name: 清华大学开源软件镜像站
     url: https://mirrors.tuna.tsinghua.edu.cn/
     img: https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png
@@ -83,7 +98,11 @@ resources:
     url: https://macwk.com/
     img: https://macwk.com/favicon.ico
     description:
-tech:
+  - name: Get Emoji
+    url: https://getemoji.com/
+    img: https://getemoji.com/assets/ico/favicon.png
+    description:
+tech_website:
   - name: MDN Web Docs
     url: https://developer.mozilla.org/zh-CN/docs/Learn
     img: https://developer.mozilla.org/favicon-192x192.png
@@ -92,18 +111,43 @@ tech:
     url: https://www.bookstack.cn/
     img: https://www.bookstack.cn/favicon.ico
     description:
-  - name: Spring Cloud 中文文档
-    url: https://www.docs4dev.com/docs/zh/spring-cloud/Greenwich.RELEASE/reference/
-    img: https://www.docs4dev.com/static/images/favicon.ico
-    description:
   - name: 力扣
     url: https://leetcode-cn.com/problemset/all/
     img: https://leetcode-cn.com/favicon.ico
     description:
-nontech:
-  - name: 百度翻译
-    url: https://fanyi.baidu.com/
-    img: https://fanyi.baidu.com/favicon.ico
+  - name: XXL开源社区
+    url: https://www.xuxueli.com/index.html
+    img: https://www.xuxueli.com/favicon.ico
+    description:
+  - name: spring
+    url: https://spring.io/
+    img: https://spring.io/images/favicon-9d25009f65637a49ac8d91eb1cf7b75e.ico
+    description:
+  - name: GVP - Gitee最有价值开源项目
+    url: https://gitee.com/gvp
+    img: https://gitee.com/assets/favicon.ico
+    description:
+tech_material:
+  - name: Spring Cloud 中文文档
+    url: https://www.docs4dev.com/docs/zh/spring-cloud/Greenwich.RELEASE/reference/
+    img: https://www.docs4dev.com/static/images/favicon.ico
+    description:
+  - name: Hexo 文档
+    url: https://hexo.io/zh-cn/docs/
+    img: https://hexo.io/icon/favicon-32x32.png
+    description:
+  - name: Postman Learning Center
+    url: https://learning.postman.com/docs/getting-started/introduction/
+    img: https://learning.postman.com/favicon-32x32.png?v=13d51aa1bbfaacb557bf41b85783e441
+    description:
+  - name: Postman 中文文档
+    url: https://honye.gitbooks.io/postman/content/scripts/intro_to_scripts.html
+    img: https://assets-global.website-files.com/600ead1452cf056d0e52dbed/602d1bc4dada8daade9e5dbe_gitbook-favicon.ico
+    description:
+news:
+  - name: 微博搜索榜
+    url: https://s.weibo.com/top/summary?cate=realtimehot
+    img: https://s.weibo.com/favicon.ico
     description:
 #about:
 #  url: /about/
