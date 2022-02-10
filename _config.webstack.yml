@@ -44,26 +44,32 @@ aboutMe:
     url: https://github.com/dbses
     img: /images/logos/github.png
     description: dbses (yanglulu) · GitHub
+
   - name: yanglu_u
     url: https://gitee.com/yanglu_u
     img: https://gitee.com/assets/favicon.ico
     description:
-  - name: technotes
-    url: https://www.dbses.cn/technotes
-    img: /images/logos/myblog.png
-    description: 互联网技术学习笔记
-  - name: technotes (国内)
-    url: https://yanglu_u.gitee.io/technotes/#/
-    img: /images/logos/myblog.png
-    description: 互联网技术学习笔记
+
   - name: 掘金-杨同学_
     url: https://juejin.cn/user/2594503173605767/posts
     img: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/favicon-32x32.png
     description: 杨同学_ 的个人主页 - 文章 - 掘金
+
   - name: CSDN-NULL
     url: https://blog.csdn.net/yang237061644?spm=1010.2135.3001.5343
     img: https://g.csdnimg.cn/static/logo/favicon32.ico
     description: NULL_杨同学__CSDN博客
+
+  - name: technotes
+    url: https://dbses.gitbook.io/technotes/
+    img: /images/logos/myblog.png
+    description: 互联网技术学习笔记
+
+  - name: technotes(停止更新)
+    url: https://www.dbses.cn/technotes
+    img: /images/logos/myblog.png
+    description: 互联网技术学习笔记
+
 tool:
   - name: Cron
     url: https://cron.qqe2.com/
