@@ -176,9 +176,9 @@ since: 2021
 
 busuanzi:
   enable: true
-  position: footer # 'footer','sidebar'
-  pv: 本站总访问量$pv
-  uv: 本站总访客数$uv
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量 $pv
+  uv: 本站总访客数 $uv
 
 custom:
   head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
