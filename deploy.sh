@@ -16,3 +16,5 @@ git push -f git@github.com:dbses/dbses.github.io.git master:webstack
 echo -e "\033[32m [1] deploy SUCCESS. \033[0m"
 
 cd -
+
+sh commit.sh
