@@ -70,31 +70,47 @@ aboutMe:
     img: /images/logos/myblog.png
     description: 互联网技术学习笔记
 
+  - name: 止于境 - 知乎
+    url: https://www.zhihu.com/people/yan-lian-han-0
+    img: https://static.zhihu.com/heifetz/favicon.ico
+    description: 止于境 - 知乎
+
 tool:
   - name: Cron
     url: https://cron.qqe2.com/
     img: /images/logos/cron工具.png
     description: 在线Cron表达式生成器
+
   - name: ProcessOn
     url: https://www.processon.com/
     img: https://www.processon.com/favicon.ico
     description: ProcessOn - 免费在线作图，思维导图，流程图，实时协作
+
   - name: 在线工具
     url: https://tool.lu/timestamp/
     img: https://tool.lu/favicon.ico
     description: 在线工具 - 你的工具箱
+
+  - name: 正则表达式工具
+    url: https://c.runoob.com/front-end/854/?optionGlobl=global
+    img: https://c.runoob.com/favicon.ico
+    description: 正则表达式在线测试 _ 菜鸟工具
+
   - name: brandmark
     url: https://app.brandmark.io/v3/
     img: https://app.brandmark.io/favicon32.gif
     description: Brandmark - make your logo in minutes
+
   - name: uTools
     url: https://u.tools/docs/guide/about-uTools.html
     img: https://u.tools/favicon.ico
     description:
+
   - name: 百度翻译
     url: https://fanyi.baidu.com/
     img: https://fanyi.baidu.com/favicon.ico
     description:
+
 resource:
   - name: 清华大学开源软件镜像站
     url: https://mirrors.tuna.tsinghua.edu.cn/
