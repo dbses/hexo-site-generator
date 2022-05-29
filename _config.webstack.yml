@@ -47,7 +47,7 @@ aboutMe:
 
   - name: yanglu_u
     url: https://gitee.com/yanglu_u
-    img: https://gitee.com/assets/favicon.ico
+    img: /images/logos/gitee_favicon.ico
     description:
 
   - name: 掘金-杨同学_
@@ -147,7 +147,7 @@ tech_website:
     description:
   - name: GVP - Gitee最有价值开源项目
     url: https://gitee.com/gvp
-    img: https://gitee.com/assets/favicon.ico
+    img: /images/logos/gitee_favicon.ico
     description:
 tech_material:
   - name: Spring Cloud 中文文档
