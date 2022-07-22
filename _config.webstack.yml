@@ -91,6 +91,11 @@ tool:
     img: https://tool.lu/favicon.ico
     description: 在线工具 - 你的工具箱
 
+  - name: 在线JSON校验格式化工具（Be JSON）
+      url: https://www.bejson.com/
+      img: https://www.bejson.com/favicon.ico
+      description: 在线JSON校验格式化工具（Be JSON）
+
   - name: 正则表达式工具
     url: https://c.runoob.com/front-end/854/?optionGlobl=global
     img: https://c.runoob.com/favicon.ico
